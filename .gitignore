@@ -5,7 +5,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-*.class
+
 *.classpath
 *.project
 *.springBeans
@@ -15,13 +15,23 @@ test-output/
 # Package Files #
 *.jar
 *.war
+
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+*.nar
+
 *.ear
 *.zip
 *.tar.gz
 *.rar
+
 *.swp
-*.log
-*.ctxt
+
 # nodejs local modules
 .tags*
 .idea/
@@ -32,3 +42,5 @@ target/
 hs_err_pid*
 logs
 target
+
+
