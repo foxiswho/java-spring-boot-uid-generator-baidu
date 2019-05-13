@@ -10,7 +10,7 @@ public class UidTestController {
     @Autowired
     private UidGenService uidGenService;
 
-    @GetMapping("/testuid")
+    @GetMapping("/uid")
     public String test() {
         return String.valueOf( uidGenService.getUid() );
     }
