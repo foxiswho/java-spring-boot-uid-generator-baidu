@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class UidTestController {
+public class UidController {
     @Autowired
     private UidGenService uidGenService;
 
-    @GetMapping("/uid")
-    public String test() {
-        return String.valueOf( uidGenService.getUid() );
+    @GetMapping("/uidGenerator")
+    public String UidGenerator() {
+        return String.valueOf(uidGenService.getUid());
     }
 
     @GetMapping("/")

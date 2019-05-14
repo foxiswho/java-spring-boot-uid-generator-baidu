@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>uid-consumer</module>
         <module>uid-generator</module>
+        <module>uid-provider</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
