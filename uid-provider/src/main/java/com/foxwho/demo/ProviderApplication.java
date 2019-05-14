@@ -7,10 +7,10 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
 @MapperScan("com.baidu.fsg.uid")
-public class ConsumerApplication {
+public class ProviderApplication {
 
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(ConsumerApplication.class).run(args);
+        new SpringApplicationBuilder(ProviderApplication.class).run(args);
     }
 }
