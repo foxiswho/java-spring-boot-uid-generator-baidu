@@ -8,7 +8,7 @@
 
     <bean id="cachedUidGenerator" class="com.baidu.fsg.uid.impl.CachedUidGenerator">
         <property name="workerIdAssigner" ref="disposableWorkerIdAssigner" />
-        <property name="epochStr" value="2019-05-14"/>
+        <property name="epochStr" value="2020-03-17"/>
         <!-- 以下为可选配置, 如未指定将采用默认值 -->
         <!-- RingBuffer size扩容参数, 可提高UID生成的吞吐量. -->
         <!-- 默认:3， 原bufferSize=8192, 扩容后bufferSize= 8192 << 3 = 65536 -->
